@@ -1,0 +1,146 @@
+body{
+  font-family: "roboto";
+}
+
+h1{
+  font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper{
+  border: 1px solid #000;
+  width: 600px;
+  height: 359px;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.search-input{
+  border: 0;
+  width: 80%;
+}
+
+.search-input:active,
+.search-input:hover,
+.search-input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.search-btn{
+  background: none;
+  border: 0;
+  background-image: url(img/search.svg);
+  width: 30px;
+  height: 30px;
+}
+
+.search-btn:hover{
+  transform: scale(1.25)
+}
+
+.information{
+  width: 100%;
+  height: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.city{
+  border-right: solid 1px #000;
+}
+
+.city__tempature{
+  display: flex;
+  gap: 5px;
+  padding: 1.5em;
+}
+
+.city__tempature img{
+  width: 13px;
+  height: 13px;  
+}
+
+.city__tempature p{
+  font-size: 70px;
+}
+
+.city__img{
+  display: flex;
+  justify-content: center;
+}
+
+.city__follow{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 16%;
+  padding: 0 1em;
+}
+
+.follow__btn button{
+  background: none;
+  border: 0;
+}
+
+.list__city{
+  padding-top: 3em;
+}
+
+.list__title{
+  border-bottom: solid 1px #000;
+  padding: 10px;
+}
+
+.list__element{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 12px;
+}
+
+.list__element button{
+  background: none;
+  border: 0;
+}
+
+.list__element img{
+  width: 15px;
+}
+
+.list__element p{
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.img__cloud{
+  width: 7em;
+}
